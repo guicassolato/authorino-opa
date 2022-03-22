@@ -1,1 +1,1 @@
-allow { input.context.request.http.method == "GET" }
+allow { input.context.request.http.method != "DELETE" }
